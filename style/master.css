@@ -40,6 +40,7 @@ html { height: 100% }
     color: #fff;
 }
 .dark-base-body .dark-header .external-navigation {
+    list-style: none;
     position: absolute;
     right: 0;
     top: 165px;
@@ -56,8 +57,8 @@ html { height: 100% }
     overflow: hidden;
     text-indent: -10000px;
 }
-.dark-base-body .dark-header .external-navigation li.twitter-link a { background: url(images/twitter.png) center center no-repeat }
-.dark-base-body .dark-header .external-navigation li.github-link a { background: url(images/github.png) center center no-repeat }
+.dark-base-body .dark-header .external-navigation li.twitter-link a { background: url(../images/twitter.png) center center no-repeat }
+.dark-base-body .dark-header .external-navigation li.github-link a { background: url(../images/github.png) center center no-repeat }
 .dark-base-body .dark-header .logo {
     display: block;
     text-indent: -10000px;
