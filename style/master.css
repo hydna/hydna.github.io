@@ -1,0 +1,233 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+html { height: 100% }
+.dark-base-body {
+    font-family: 'Droid Sans', sans-serif;
+    background: #1f2325;
+    background: -moz-linear-gradient(top, #2d3236 0%, #1f2325 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2d3236), color-stop(100%, #1f2325));
+    background: -webkit-linear-gradient(top, #2d3236 0%, #1f2325 100%);
+    background: -o-linear-gradient(top, #2d3236 0%, #1f2325 100%);
+    background: -ms-linear-gradient(top, #2d3236 0%, #1f2325 100%);
+    background: linear-gradient(to bottom, #2d3236 0%, #1f2325 100%);
+    background-attachment: fixed;
+    color: #797f83;
+}
+.dark-base-body .dark-header {
+    background: none;
+    text-align: center;
+    padding: 80px 0;
+    width: 940px;
+    margin: 0 auto;
+    position: relative;
+}
+.dark-base-body .dark-header .home-link {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 163px;
+    border: 2px solid #7e7e7e;
+    padding: 10px 20px;
+    border-radius: 3px;
+    color: #c6cbcf;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: normal;
+    text-decoration: none;
+}
+.dark-base-body .dark-header .home-link:hover {
+    text-decoration: none;
+    color: #fff;
+}
+.dark-base-body .dark-header .external-navigation {
+    position: absolute;
+    right: 0;
+    top: 165px;
+    margin: 0;
+}
+.dark-base-body .dark-header .external-navigation li {
+    float: left;
+    margin: 0 5px;
+}
+.dark-base-body .dark-header .external-navigation li a {
+    width: 40px;
+    height: 40px;
+    display: block;
+    overflow: hidden;
+    text-indent: -10000px;
+}
+.dark-base-body .dark-header .external-navigation li.twitter-link a { background: url(images/twitter.png) center center no-repeat }
+.dark-base-body .dark-header .external-navigation li.github-link a { background: url(images/github.png) center center no-repeat }
+.dark-base-body .dark-header .logo {
+    display: block;
+    text-indent: -10000px;
+    margin: 0 auto;
+    height: 180px;
+    width: 256px;
+    background-image: url(../images/logo-big.png);
+}
+.dark-base-body .dark-content {
+    width: 960px;
+    margin: 0 auto;
+}
+.dark-base-body .dark-content .page-header { margin-top: 0 }
+.dark-base-body .dark-content .page-header .aux { color: #797f83 }
+.dark-base-body .dark-footer {
+    width: 950px;
+    text-align: center;
+    margin: 0 auto;
+}
+.dark-base-body h1 {
+    color: #fff;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    margin-bottom: 10px;
+}
+.dark-base-body .dark-footer { padding: 60px 0 }
+.dark-base-body .dark-footer .dark-sign-up { margin-bottom: 20px }
+.dark-base-body .dark-footer .dark-sign-up a {
+    padding: 10px 20px;
+    font-size: 16px;
+}
+.dark-base-body .dark-footer a { color: #fff }
+.dark-base-body .dark-footer p { font-size: 16px }
+
+
+.box {
+    border-radius: 5px;
+    box-shadow: #ddd 0 1px 1px;
+    margin: 0 10px 40px;
+}
+.box .section {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-top: 0;
+    padding: 40px;
+}
+.box .section:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    border-top: 1px solid #ddd;
+}
+.box .section:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+.box .section.dark {
+    background: #2d3236;
+    background: -moz-linear-gradient(top, #393f44 0%, #2d3236 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #393f44), color-stop(100%, #2d3236));
+    background: -webkit-linear-gradient(top, #393f44 0%, #2d3236 100%);
+    background: -o-linear-gradient(top, #393f44 0%, #2d3236 100%);
+    background: -ms-linear-gradient(top, #393f44 0%, #2d3236 100%);
+    background: linear-gradient(to bottom, #393f44 0%, #2d3236 100%);
+    border: 0;
+}
+.box .section.distinct { background: #fafafa }
+.box .section.distinct .heading {
+    margin: 0;
+    font-size: 14px;
+}
+.box .section>*:last-child { margin-bottom: 0 }
+.box .section>*:first-child { margin-top: 0 }
+.box .section p { max-width: 540px }
+.box .heading {
+    font-size: 24px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+    position: relative;
+    margin-bottom: 20px;
+}
+.box .heading .extra {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-size: 16px;
+}
+.box .header { margin-bottom: 30px }
+.box .header .heading { margin-bottom: 0 }
+.box .header p { max-width: 520px }
+
+.page-header {
+    margin: 40px 0;
+    position: relative;
+    text-align: center;
+}
+.page-header .heading {
+    font-family: 'Droid Sans', sans-serif;
+    margin-bottom: 5px;
+    letter-spacing: 0.5px;
+    font-size: 32px;
+    font-weight: bold;
+}
+.page-header .heading .sep { color: #aaa }
+.page-header .heading a { color: #333 }
+.page-header .aux {
+    margin: 0;
+    color: #666;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+}
+.page-header .aux a { color: #666 }
+.page-header .tools {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.page-header .tools li { display: inline-block }
+
+.demo-body .demo-list {
+    margin: 70px 0 20px;
+    *display: inline-block;
+}
+.demo-body .demo-list:after {
+    content: " ";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.demo-body .demo-list li {
+    width: 300px;
+    height: 320px;
+    margin: 10px;
+    float: left;
+    position: relative;
+}
+.demo-body .demo-list li .poster {
+    background: #212325;
+    display: block;
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.demo-body .demo-list li.project:before,
+.demo-body .demo-list li.case:before,
+.demo-body .demo-list li.demo:before {
+    font-size: 12px;
+    display: block;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    color: #fff;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    pointer-events: none;
+    cursor: pointer;
+}
+.demo-body .demo-list li.demo:before {
+    content: "Demo";
+    background: #54585b;
+}
+.demo-body .demo-list li.project:before {
+    content: "Project";
+    background: #7cbf75;
+    background: #5b666e;
+    background: #54585b;
+}
+.demo-body .demo-list a { color: #fff }
